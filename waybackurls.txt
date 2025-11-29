@@ -1,0 +1,5 @@
+Run : go get github.com/tomnomnom/waybackurls
+Run : cp /root/go/bin/waybackurls /usr/local/go/bin/
+Run (Check) : waybackurls -h
+Run (Check/Usage) : waybackurls *.domain -no-subs
+Run (Check/Usage) : cat domains.txt | waybackurls > urls

@@ -1,0 +1,5 @@
+fsck /dev/sda1 or sda2 etc
+
+sudo fsck -Af -V  =======> regular scan
+
+sudo smartctl -a /dev/sda 	============> monitor

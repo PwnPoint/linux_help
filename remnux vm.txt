@@ -1,0 +1,17 @@
+   1  ip a
+    2  sudo nano /etc/netplan/01-netcfg.yaml
+    3  sudo vim /etc/netplan/01-netcfg.yaml
+    4  sudo netplan apply
+    5  sudo vim /etc/netplan/01-netcfg.yaml
+    6  sudo netplan apply
+    7  sudo vim /etc/netplan/01-netcfg.yaml
+    8  sudo netplan apply
+    9  sudo vim /etc/netplan/01-netcfg.yaml
+   10  sudo netplan apply
+   11  sudo vim /etc/netplan/01-netcfg.yaml
+   12  sudo netplan apply
+   13  ip -br -c a
+   14  nc -vn 192.168.56.4 5555
+   15  echo "Wytd" | base64 -d
+   16  arp /all
+

@@ -1,0 +1,11 @@
+# Install the virtual environment package (if not already installed)
+sudo apt install python3-venv
+
+# Create a virtual environment
+python3 -m venv myenv
+
+# Activate the virtual environment
+source myenv/bin/activate
+
+# Install the packages in the virtual environment
+pip install requests beautifulsoup4 python-dotenv rich shodan
