@@ -1,3 +1,16 @@
 sudo crontab -e
 @reboot macchanger -r eth0
 @reboot macchanger -r wlan0
+
+
+Manual
+
+ifconfig
+
+sudo ifconfig interface_name down
+
+sudo macchanger -r interface_name
+
+sudo ifconfig interface_name up
+
+ifconfig
