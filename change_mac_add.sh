@@ -1,3 +1,5 @@
+#chmod +x macchange.sh
+
 #!/bin/bash
 # Replace "interface_name" with your network interface name
 interface_name="wlan0"
